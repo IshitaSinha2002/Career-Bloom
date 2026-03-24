@@ -19,8 +19,14 @@ The system collects user inputs such as technical skills, interests, and backgro
 <p>
 Designed an interactive and user-friendly home page where users can input their skills, interests, and preferences through a structured UI instead of a plain form.
 </p>
-<img src="YOUR_IMAGE_LINK_1" style="width: 500px; height: 400px; object-fit: cover;">
-<img src="YOUR_IMAGE_LINK_2" style="width: 500px; height: 400px; object-fit: cover;">
+<img src="https://github.com/IshitaSinha2002/Career-Bloom/blob/main/Screenshot%20(22).png" style="width: 500px; height: 400px; object-fit: cover;">
+
+<h3>Questernaire Page</h3>
+<p></p>
+<img src="https://github.com/IshitaSinha2002/Career-Bloom/blob/main/Screenshot%20(24).png" style="width: 500px; height: 400px; object-fit: cover;">
+<img src="https://github.com/IshitaSinha2002/Career-Bloom/blob/main/Screenshot%20(25).png" style="width: 500px; height: 400px; object-fit: cover;">
+<img src="https://github.com/IshitaSinha2002/Career-Bloom/blob/main/Screenshot%20(26).png" style="width: 500px; height: 400px; object-fit: cover;">
+<img src="https://github.com/IshitaSinha2002/Career-Bloom/blob/main/Screenshot%20(27).png" style="width: 500px; height: 400px; object-fit: cover;">
 
 <h3>Results Page</h3>
 <p>
@@ -32,8 +38,7 @@ Developed a results page that displays predicted career paths along with:
 </ul>
 The UI is designed to highlight key results clearly and make recommendations stand out.
 </p>
-<img src="YOUR_IMAGE_LINK_3" style="width: 500px; height: 400px; object-fit: cover;">
-<img src="YOUR_IMAGE_LINK_4" style="width: 500px; height: 400px; object-fit: cover;">
+<img src="https://github.com/IshitaSinha2002/Career-Bloom/blob/main/Screenshot%20(29).png" style="width: 500px; height: 400px; object-fit: cover;">
 
 <h3>Model Training Implementation Details</h3>
 <ol>
