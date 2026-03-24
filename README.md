@@ -100,13 +100,18 @@ The UI is designed to highlight key results clearly and make recommendations sta
       <tbody>
         <tr>
           <td>Logistic Regression</td>
-          <td>0.XX</td>
-          <td>0.XX</td>
+          <td>0.201111</td>
+          <td>0.254611</td>
         </tr>
         <tr>
           <td>Random Forest Classifier</td>
-          <td>0.XX</td>
-          <td>0.XX</td>
+          <td>0.686111</td>
+          <td>0.558384</td>
+        </tr>
+        <tr>
+          <td>Decision Tree Classifier</td>
+          <td>0.212778</td>
+          <td>0.255221</td>
         </tr>
       </tbody>
     </table>
