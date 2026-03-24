@@ -16,13 +16,11 @@ The system collects user inputs such as technical skills, interests, and backgro
 </ul>
 
 <h3>Home Page</h3>
-<p>
-Designed an interactive and user-friendly home page where users can input their skills, interests, and preferences through a structured UI instead of a plain form.
-</p>
 <img src="https://github.com/IshitaSinha2002/Career-Bloom/blob/main/Screenshot%20(22).png" style="width: 500px; height: 400px; object-fit: cover;">
 
 <h3>Questernaire Page</h3>
-<p></p>
+<p>
+Designed an interactive and user-friendly home page where users can input their skills, interests, and preferences through a structured UI instead of a plain form.</p>
 <img src="https://github.com/IshitaSinha2002/Career-Bloom/blob/main/Screenshot%20(24).png" style="width: 500px; height: 400px; object-fit: cover;">
 <img src="https://github.com/IshitaSinha2002/Career-Bloom/blob/main/Screenshot%20(25).png" style="width: 500px; height: 400px; object-fit: cover;">
 <img src="https://github.com/IshitaSinha2002/Career-Bloom/blob/main/Screenshot%20(26).png" style="width: 500px; height: 400px; object-fit: cover;">
