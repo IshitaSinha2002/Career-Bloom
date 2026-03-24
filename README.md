@@ -1,16 +1,142 @@
-# React + Vite
+<h1>Career Bloom – Career Path Recommender</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h3>Project Overview</h3>
+<p>
+Career Bloom is a full-stack machine learning application designed to help users discover suitable career paths based on their skills, interests, and preferences. 
+The system collects user inputs such as technical skills, interests, and background, processes them through a trained ML model, and provides personalized career recommendations along with insights and role suggestions.
+</p>
 
-Currently, two official plugins are available:
+<h4>Dataset: https://www.kaggle.com/datasets/your-dataset-link</h4>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<h3>Tech Stack</h3>
+<ul>
+  <li>Front-end: ReactJS, CSS</li>
+  <li>Back-end: Python, Flask</li>
+  <li>Machine Learning: Classification Models (Random Forest, Logistic Regression), Label Encoding, Feature Scaling</li>
+</ul>
 
-## React Compiler
+<h3>Home Page</h3>
+<p>
+Designed an interactive and user-friendly home page where users can input their skills, interests, and preferences through a structured UI instead of a plain form.
+</p>
+<img src="YOUR_IMAGE_LINK_1" style="width: 500px; height: 400px; object-fit: cover;">
+<img src="YOUR_IMAGE_LINK_2" style="width: 500px; height: 400px; object-fit: cover;">
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<h3>Results Page</h3>
+<p>
+Developed a results page that displays predicted career paths along with:
+<ul>
+  <li><b>Primary Career Recommendation</b></li>
+  <li><b>Suggested Roles</b></li>
+  <li><b>Explanation/Insights</b> based on user inputs</li>
+</ul>
+The UI is designed to highlight key results clearly and make recommendations stand out.
+</p>
+<img src="YOUR_IMAGE_LINK_3" style="width: 500px; height: 400px; object-fit: cover;">
+<img src="YOUR_IMAGE_LINK_4" style="width: 500px; height: 400px; object-fit: cover;">
 
-## Expanding the ESLint configuration
+<h3>Model Training Implementation Details</h3>
+<ol>
+  <li><b>Data Processing:</b>
+    <ul>
+      <li>Handled missing and inconsistent data.</li>
+      <li>Converted categorical inputs into numerical format using Label Encoding.</li>
+      <li>Normalized numerical features using StandardScaler.</li>
+    </ul>
+  </li>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  <li><b>Feature Selection:</b>
+    <ul>
+      <li>Identified key features such as skills, interests, and experience level.</li>
+      <li>Removed redundant or low-impact features to improve model performance.</li>
+    </ul>
+  </li>
+
+  <li><b>Model Development:</b>
+    <p>Algorithms Used:</p>
+    <ul>
+      <li>Logistic Regression</li>
+      <li>Random Forest Classifier</li>
+    </ul>
+  </li>
+
+  <li><b>Training Process:</b>
+    <ul>
+      <li>Split dataset into training and testing sets (80/20 split).</li>
+      <li>Ensured proper shuffling to avoid bias.</li>
+      <li>Trained models to learn relationships between user inputs and career categories.</li>
+    </ul>
+  </li>
+
+  <li><b>Model Training:</b>
+    <ul>
+      <li>Used Scikit-learn for model implementation.</li>
+      <li>Fit models on training data.</li>
+      <li>Generated predictions on test data.</li>
+    </ul>
+  </li>
+
+  <li><b>Model Evaluation Metrics:</b>
+    <ul>
+      <li>Accuracy: Measures overall correctness</li>
+      <li>Precision: Measures correctness of positive predictions</li>
+      <li>Recall: Measures ability to find all relevant cases</li>
+      <li>F1-score: Harmonic mean of precision and recall</li>
+    </ul>
+  </li>
+
+  <li><b>Model Comparison:</b>
+    <table>
+      <thead>
+        <tr>
+          <th>Algorithm</th>
+          <th>Accuracy</th>
+          <th>F1 Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Logistic Regression</td>
+          <td>0.XX</td>
+          <td>0.XX</td>
+        </tr>
+        <tr>
+          <td>Random Forest Classifier</td>
+          <td>0.XX</td>
+          <td>0.XX</td>
+        </tr>
+      </tbody>
+    </table>
+    <ul>
+      <li>Selected the best-performing model based on accuracy and F1-score.</li>
+    </ul>
+  </li>
+</ol>
+
+<h3>Backend Implementation</h3>
+<ol>
+  <li><b>Framework and Setup:</b>
+    <ul>
+      <li>Developed RESTful APIs using Flask.</li>
+      <li>Structured backend for modularity (model loading, preprocessing, API routes).</li>
+      <li>Enabled CORS for frontend-backend communication.</li>
+    </ul>
+  </li>
+
+  <li><b>Model Integration:</b>
+    <ul>
+      <li>Loaded trained classification model for predictions.</li>
+      <li>Applied preprocessing (encoding + scaling) before inference.</li>
+      <li>Maintained consistency between training and real-time prediction pipeline.</li>
+    </ul>
+  </li>
+
+  <li><b>Prediction Logic:</b>
+    <ul>
+      <li>Processed user input from frontend.</li>
+      <li>Converted input into model-compatible format.</li>
+      <li>Generated predicted career category.</li>
+      <li>Mapped prediction to meaningful career roles and suggestions.</li>
+    </ul>
+  </li>
+</ol>
