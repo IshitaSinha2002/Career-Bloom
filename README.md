@@ -6,7 +6,7 @@ Career Bloom is a full-stack machine learning application designed to help users
 The system collects user inputs such as technical skills, interests, and background, processes them through a trained ML model, and provides personalized career recommendations along with insights and role suggestions.
 </p>
 
-<h4>Dataset: https://www.kaggle.com/datasets/your-dataset-link</h4>
+<h4>Dataset: [https://www.kaggle.com/datasets/your-dataset-link](http://kaggle.com/datasets/ministerjohn/career-path-prediction-for-different-fields)</h4>
 
 <h3>Tech Stack</h3>
 <ul>
